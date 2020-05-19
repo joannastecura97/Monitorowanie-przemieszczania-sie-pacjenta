@@ -1,0 +1,76 @@
+
+{
+-fx-font-weight: bold;
+}
+
+#background
+{
+    -fx-background-color: linear-gradient(#33CCFF, #CCFFFF);
+    -fx-padding: 5px;
+}
+
+
+.button
+{
+    -fx-background-color: #0099CC;
+    -fx-text-inner-color: #FFFFFF;
+    -fx-text-fill: #FFFFFF;
+    -fx-border-color: #006699;
+    -fx-border-radius: 4px;
+    -fx-background-radius: 4px;
+}
+
+.button:hover
+{
+    -fx-background-color: #0099CC;
+}
+
+.button:pressed
+{
+    -fx-background-color: #4a668c;
+}
+
+
+#findByArmBardIDTextField.text-field
+{
+    -fx-background-color: #CCFFFF;
+    -fx-border-color: #006699;
+    -fx-border-radius: 25px;
+    -fx-background-radius: 25px;
+}
+
+#loginTextField.text-field
+{
+    -fx-background-color: #CCFFFF;
+    -fx-border-color: #006699;
+    -fx-border-radius: 25px;
+    -fx-background-radius: 25px;
+}
+
+#passwordTextField.text-field
+{
+    -fx-background-color: #CCFFFF;
+    -fx-border-color: #006699;
+    -fx-border-radius: 25px;
+    -fx-background-radius: 25px;
+}
+
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+    -fx-background-color: #0099CC;
+    -fx-text-fill: white;
+}
+
+.list-cell:even { /* <=== changed to even */
+    -fx-background-color: white;
+}
+
+.list-cell:filled:hover {
+    -fx-background-color: #66CCFF;
+    -fx-text-fill: white;
+}
+.list-cell
+{
+    -fx-background-color: #F0FFFF;/*#CCFFFF;*/
+}
+
+
